@@ -20,5 +20,7 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
+  "com.iheart"    %% "ficus"     % "1.4.3",
+  "com.typesafe"  %  "config"    % "1.3.2",
   "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 )
